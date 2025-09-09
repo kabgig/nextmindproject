@@ -42,7 +42,8 @@ export default function TransformationSection() {
               textAlign="center"
               fontWeight="normal"
             >
-              "Next Mind Project" is your personal transformation toolkit
+              &quot;Next Mind Project&quot; is your personal transformation
+              toolkit
             </Heading>
 
             {/* Features List */}
@@ -85,7 +86,7 @@ export default function TransformationSection() {
             {/* What You Get */}
             <Box>
               <Heading as="h3" fontSize={{ base: "lg", md: "xl" }} mb={6}>
-                Here's what you'll get:
+                Here&apos;s what you&apos;ll get:
               </Heading>
 
               <VStack spacing={4} align="start">
@@ -99,8 +100,8 @@ export default function TransformationSection() {
                 <HStack align="start" spacing={4}>
                   <Text fontSize="xl">💡</Text>
                   <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                    Finally understand why you're stuck (with money, business,
-                    life, relationships).
+                    Finally understand why you&apos;re stuck (with money,
+                    business, life, relationships).
                   </Text>
                 </HStack>
 
@@ -127,7 +128,7 @@ export default function TransformationSection() {
               fontWeight="semibold"
               textAlign="center"
             >
-              This isn't motivation. This is mental system cleanup.
+              This isn&apos;t motivation. This is mental system cleanup.
             </Text>
 
             {/* Brain Icon */}

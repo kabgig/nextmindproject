@@ -32,7 +32,7 @@ export default function FormatSection() {
               <HStack align="start" spacing={4} mb={3}>
                 <Text fontSize="2xl">🧠</Text>
                 <Text fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
-                  Bug #1 "The exact mental bug we're tackling"
+                  Bug #1 &quot;The exact mental bug we&apos;re tackling&quot;
                 </Text>
               </HStack>
               <Text
@@ -40,8 +40,8 @@ export default function FormatSection() {
                 color="gray.600"
                 pl={12}
               >
-                The name and description of the bug that'll hit you like a ton
-                of bricks from the first read.
+                The name and description of the bug that&apos;ll hit you like a
+                ton of bricks from the first read.
               </Text>
             </Box>
 
@@ -121,7 +121,7 @@ export default function FormatSection() {
               <HStack align="start" spacing={4} mb={3}>
                 <Text fontSize="2xl">📉</Text>
                 <Text fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
-                  How it's holding you back
+                  How it&apos;s holding you back
                 </Text>
               </HStack>
               <Text

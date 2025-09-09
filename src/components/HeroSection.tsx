@@ -50,12 +50,12 @@ export default function HeroSection() {
             {/* Introduction */}
             <Box>
               <Heading as="h2" fontSize={{ base: "xl", md: "2xl" }} mb={6}>
-                It's Time to Level Up
+                It&apos;s Time to Level Up
               </Heading>
               <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.7}>
-                "Next Mind Project" is the ultimate database of limiting beliefs
-                and mental patterns that are keeping you stuck, broke, and
-                playing small in life.
+                &quot;Next Mind Project&quot; is the ultimate database of
+                limiting beliefs and mental patterns that are keeping you stuck,
+                broke, and playing small in life.
               </Text>
             </Box>
 
@@ -65,9 +65,9 @@ export default function HeroSection() {
                 Why This Matters
               </Heading>
               <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.7} mb={6}>
-                Your real problems aren't about discipline, motivation, or
-                taking action— it's the mental programming running in the
-                background that you don't even realize is there.
+                Your real problems aren&apos;t about discipline, motivation, or
+                taking action— it&apos;s the mental programming running in the
+                background that you don&apos;t even realize is there.
               </Text>
             </Box>
 
@@ -85,42 +85,42 @@ export default function HeroSection() {
                 fontStyle="italic"
                 lineHeight={1.6}
               >
-                If I didn't do it myself, I'm nobody.
+                If I didn&apos;t do it myself, I&apos;m nobody.
               </Text>
               <Text
                 fontSize={{ base: "md", md: "lg" }}
                 fontStyle="italic"
                 lineHeight={1.6}
               >
-                You can't make good money honestly.
+                You can&apos;t make good money honestly.
               </Text>
               <Text
                 fontSize={{ base: "md", md: "lg" }}
                 fontStyle="italic"
                 lineHeight={1.6}
               >
-                Money and spirituality don't mix.
+                Money and spirituality don&apos;t mix.
               </Text>
               <Text
                 fontSize={{ base: "md", md: "lg" }}
                 fontStyle="italic"
                 lineHeight={1.6}
               >
-                If you get something good, it'll be taken away.
+                If you get something good, it&apos;ll be taken away.
               </Text>
               <Text
                 fontSize={{ base: "md", md: "lg" }}
                 fontStyle="italic"
                 lineHeight={1.6}
               >
-                I don't deserve to have it easy.
+                I don&apos;t deserve to have it easy.
               </Text>
               <Text
                 fontSize={{ base: "md", md: "lg" }}
                 fontStyle="italic"
                 lineHeight={1.6}
               >
-                Easy money doesn't exist.
+                Easy money doesn&apos;t exist.
               </Text>
               <Text
                 fontSize={{ base: "md", md: "lg" }}
@@ -139,11 +139,12 @@ export default function HeroSection() {
                 fontWeight="semibold"
               >
                 These deep-seated programs are running your decisions and
-                behavior on autopilot, and you don't even see it happening.
+                behavior on autopilot, and you don&apos;t even see it happening.
               </Text>
 
               <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.7}>
-                They're draining your money, joy, energy, freedom, and time.
+                They&apos;re draining your money, joy, energy, freedom, and
+                time.
               </Text>
             </VStack>
           </VStack>

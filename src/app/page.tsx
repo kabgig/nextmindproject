@@ -2,22 +2,18 @@
 
 import {
   Box,
+  Button,
   Container,
-  Heading,
+  Divider,
+  HStack,
+  Link,
   Text,
   VStack,
-  HStack,
-  Button,
-  Flex,
-  SimpleGrid,
-  Link,
-  Icon,
-  Divider,
 } from "@chakra-ui/react";
-import HeroSection from "../components/HeroSection";
-import TransformationSection from "../components/TransformationSection";
 import FormatSection from "../components/FormatSection";
+import HeroSection from "../components/HeroSection";
 import InsideSection from "../components/InsideSection";
+import TransformationSection from "../components/TransformationSection";
 
 export default function Home() {
   return (

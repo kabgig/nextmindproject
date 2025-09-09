@@ -21,7 +21,7 @@ export default function InsideSection() {
             textAlign="center"
             mb={8}
           >
-            Here's what's waiting for you inside:
+            Here&apos;s what&apos;s waiting for you inside:
           </Heading>
 
           {/* Features List */}
@@ -59,8 +59,8 @@ export default function InsideSection() {
                   color="gray.700"
                 >
                   No theory or motivational BS. Just the real deal: where it
-                  came from, how it works, how it's limiting you, and what it
-                  looks like in your daily life.
+                  came from, how it works, how it&apos;s limiting you, and what
+                  it looks like in your daily life.
                 </Text>
               </Box>
             </HStack>
