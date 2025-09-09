@@ -17,21 +17,22 @@ export default function FormatSection() {
           {/* Header */}
           <Box textAlign="center">
             <Heading as="h3" fontSize={{ base: "xl", md: "2xl" }} mb={4}>
-              Формат базы:
+              Database Format:
             </Heading>
             <Text fontSize={{ base: "md", md: "lg" }} mb={8}>
-              Каждый баг внутри базы разбирается по следующему формату:
+              Every mental bug in the database gets broken down using this
+              framework:
             </Text>
           </Box>
 
           {/* Format Items */}
           <VStack spacing={6} align="start">
-            {/* Баг */}
+            {/* Bug */}
             <Box>
               <HStack align="start" spacing={4} mb={3}>
                 <Text fontSize="2xl">🧠</Text>
                 <Text fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
-                  Баг №1 «Какой именно баг мы разбираем»
+                  Bug #1 "The exact mental bug we're tackling"
                 </Text>
               </HStack>
               <Text
@@ -39,17 +40,17 @@ export default function FormatSection() {
                 color="gray.600"
                 pl={12}
               >
-                Название и описание бага, которое откликнется в тебе с первого
-                прочтения.
+                The name and description of the bug that'll hit you like a ton
+                of bricks from the first read.
               </Text>
             </Box>
 
-            {/* Как проявляется в жизни */}
+            {/* How it shows up */}
             <Box>
               <HStack align="start" spacing={4} mb={3}>
                 <Text fontSize="2xl">📡</Text>
                 <Text fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
-                  Как проявляется в жизни
+                  How it shows up in real life
                 </Text>
               </HStack>
               <Text
@@ -57,17 +58,17 @@ export default function FormatSection() {
                 color="gray.600"
                 pl={12}
               >
-                Разбор распространенных ситуаций, как эта прошивка проявляется в
-                твоей жизни.
+                Breakdown of common situations where this programming messes
+                with your life.
               </Text>
             </Box>
 
-            {/* Сопутствующие убеждения */}
+            {/* Related beliefs */}
             <Box>
               <HStack align="start" spacing={4} mb={3}>
                 <Text fontSize="2xl">🧬</Text>
                 <Text fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
-                  Сопутствующие ограничивающие убеждения
+                  Related limiting beliefs
                 </Text>
               </HStack>
               <Text
@@ -75,17 +76,16 @@ export default function FormatSection() {
                 color="gray.600"
                 pl={12}
               >
-                Дополнительные смежные убеждения, которые связанный с этим
-                багом.
+                Additional connected beliefs that are tied to this mental bug.
               </Text>
             </Box>
 
-            {/* Как говорит это убеждение */}
+            {/* How it sounds */}
             <Box>
               <HStack align="start" spacing={4} mb={3}>
                 <Text fontSize="2xl">🗣</Text>
                 <Text fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
-                  Как говорит это убеждение
+                  What this belief sounds like
                 </Text>
               </HStack>
               <Text
@@ -93,17 +93,17 @@ export default function FormatSection() {
                 color="gray.600"
                 pl={12}
               >
-                Как данная прошивка звучит в повседневной речи у людей, друзей,
-                родственников и т.п.
+                How this programming shows up in everyday conversation with
+                people, friends, family, etc.
               </Text>
             </Box>
 
-            {/* Глубинный корень */}
+            {/* Root cause */}
             <Box>
               <HStack align="start" spacing={4} mb={3}>
                 <Text fontSize="2xl">🌳</Text>
                 <Text fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
-                  Глубинный корень убеждения
+                  The root of the belief
                 </Text>
               </HStack>
               <Text
@@ -111,16 +111,17 @@ export default function FormatSection() {
                 color="gray.600"
                 pl={12}
               >
-                Откуда взялась прошивка и как была в тебя загружена.
+                Where this programming came from and how it got installed in
+                your head.
               </Text>
             </Box>
 
-            {/* Как ограничивает */}
+            {/* How it limits */}
             <Box>
               <HStack align="start" spacing={4} mb={3}>
                 <Text fontSize="2xl">📉</Text>
                 <Text fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
-                  Как оно тебя ограничивает
+                  How it's holding you back
                 </Text>
               </HStack>
               <Text
@@ -128,16 +129,16 @@ export default function FormatSection() {
                 color="gray.600"
                 pl={12}
               >
-                Разбираем ситуации в которых ты можешь увидеть отражение себя.
+                We break down situations where you might see yourself reflected.
               </Text>
             </Box>
 
-            {/* Новая прошивка */}
+            {/* New programming */}
             <Box>
               <HStack align="start" spacing={4} mb={3}>
                 <Text fontSize="2xl">💡</Text>
                 <Text fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
-                  Новая прошивка
+                  New programming
                 </Text>
               </HStack>
               <Text
@@ -145,8 +146,8 @@ export default function FormatSection() {
                 color="gray.600"
                 pl={12}
               >
-                Делаем глубокий рефрейминг старой прошивки на новую. Бонусом
-                встраиваем в себя +10 новых мощных поддерживающих прошивок.
+                We do a deep reframe from the old programming to the new. Bonus:
+                we install 10 new powerful supporting beliefs.
               </Text>
             </Box>
           </VStack>

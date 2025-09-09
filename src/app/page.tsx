@@ -47,7 +47,7 @@ export default function Home() {
               fontSize="lg"
               fontWeight="bold"
             >
-              Подключиться из России с оплатой в рублях 10 000₽ в месяц
+              Get Access from USA - $120/month
             </Button>
 
             <Button
@@ -58,35 +58,35 @@ export default function Home() {
               fontSize="lg"
               fontWeight="bold"
             >
-              Подключиться из любой точки Мира в Euro 110€ в месяц
+              Get Access from Anywhere Else - €110/month
             </Button>
           </VStack>
 
           {/* Terms */}
           <Box textAlign="center" fontSize="sm" color="gray.600">
             <Text mb={4}>
-              Переходя на страницу оплаты, вы соглашаетесь{" "}
+              By proceeding to payment, you agree to our{" "}
               <Link color="blue.500" href="#" textDecoration="underline">
-                с офертой
+                terms of service
               </Link>{" "}
-              и даете согласие на обработку{" "}
+              and consent to the processing of{" "}
               <Link color="blue.500" href="#" textDecoration="underline">
-                персональных данных
+                personal data
               </Link>{" "}
-              в соответствии с{" "}
+              in accordance with our{" "}
               <Link color="blue.500" href="#" textDecoration="underline">
-                политикой конфиденциальности
+                privacy policy
               </Link>
             </Text>
 
             <Text mb={4}>
-              Выберите свою страну, валюту и следуйте инструкциям Telegram-бота.
-              Доступ к каналу и всем материалам откроется автоматически после
-              оплаты.
+              Choose your country and currency, then follow the Telegram bot
+              instructions. Access to the channel and all materials opens
+              automatically after payment.
             </Text>
 
             <Text>
-              По важным вопросам можно связаться с менеджером проекта{" "}
+              For important questions, contact our project manager{" "}
               <Link color="blue.500" href="#" textDecoration="underline">
                 @victoria_vish
               </Link>
@@ -96,7 +96,7 @@ export default function Home() {
           {/* Social Links */}
           <Box textAlign="center">
             <Text fontSize="lg" fontWeight="bold" mb={4}>
-              Соц. сети
+              Follow Us
             </Text>
             <HStack justify="center" spacing={6}>
               <Link color="blue.500" href="#" fontSize="lg">
@@ -114,41 +114,41 @@ export default function Home() {
           <Box textAlign="center" fontSize="sm" color="gray.600">
             <VStack spacing={3}>
               <Text>
-                ИП Вишняков Владислав Александрович
+                Next Mind Project LLC
                 <br />
-                ИНН 590425932875
+                Business Registration: NMP-2024-001
                 <br />
-                ОГРНИП 324237500017232
+                Tax ID: 555-123-4567
               </Text>
 
               <HStack justify="center" spacing={4} flexWrap="wrap">
                 <Link color="blue.500" href="#" textDecoration="underline">
-                  Договор оферты
+                  Terms of Service
                 </Link>
                 <Link color="blue.500" href="#" textDecoration="underline">
-                  Политика конфиденциальности
+                  Privacy Policy
                 </Link>
                 <Link color="blue.500" href="#" textDecoration="underline">
-                  Обработка персональных данных
+                  Data Processing
                 </Link>
               </HStack>
 
               <HStack justify="center" spacing={4} flexWrap="wrap">
                 <Link color="blue.500" href="#" textDecoration="underline">
-                  Отмена подписки для России
+                  Cancel Subscription (USA)
                 </Link>
                 <Link color="blue.500" href="#" textDecoration="underline">
-                  Отмена подписки для Мира
+                  Cancel Subscription (International)
                 </Link>
               </HStack>
 
               <Text mt={4}>
-                Информация на сайте носит исключительно информационный характер
-                и не является публичной офертой.
+                Information on this site is for informational purposes only and
+                does not constitute a public offer.
               </Text>
 
               <Text color="gray.400" fontSize="xs" mt={4}>
-                Made on Tilda
+                Built with Next.js
               </Text>
             </VStack>
           </Box>

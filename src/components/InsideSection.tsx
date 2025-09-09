@@ -21,7 +21,7 @@ export default function InsideSection() {
             textAlign="center"
             mb={8}
           >
-            Внутри тебя ждет:
+            Here's what's waiting for you inside:
           </Heading>
 
           {/* Features List */}
@@ -32,16 +32,15 @@ export default function InsideSection() {
               </Box>
               <Box>
                 <Heading as="h4" fontSize={{ base: "lg", md: "xl" }} mb={4}>
-                  База самых сильных ограничивающих убеждений
+                  The ultimate database of limiting beliefs
                 </Heading>
                 <Text
                   fontSize={{ base: "md", md: "lg" }}
                   lineHeight={1.6}
                   color="gray.700"
                 >
-                  Постоянно пополняемый список установок, которые мешают тебе
-                  быть свободным, достигать больше, реализовывать свой
-                  потенциал.
+                  A constantly updated list of mental patterns that keep you
+                  stuck, broke, and unable to reach your full potential.
                 </Text>
               </Box>
             </HStack>
@@ -52,15 +51,16 @@ export default function InsideSection() {
               </Box>
               <Box>
                 <Heading as="h4" fontSize={{ base: "lg", md: "xl" }} mb={4}>
-                  Разбор каждого убеждения — простым и точным языком
+                  Straight-talk breakdown of every belief
                 </Heading>
                 <Text
                   fontSize={{ base: "md", md: "lg" }}
                   lineHeight={1.6}
                   color="gray.700"
                 >
-                  Без теории и мотивации. Только суть: как оно появилось, как
-                  работает, чем ограничивает и как проявляется в твоей жизни.
+                  No theory or motivational BS. Just the real deal: where it
+                  came from, how it works, how it's limiting you, and what it
+                  looks like in your daily life.
                 </Text>
               </Box>
             </HStack>
@@ -71,15 +71,15 @@ export default function InsideSection() {
               </Box>
               <Box>
                 <Heading as="h4" fontSize={{ base: "lg", md: "xl" }} mb={4}>
-                  Быстрая схема перепрошивки
+                  Quick mental reprogramming methods
                 </Heading>
                 <Text
                   fontSize={{ base: "md", md: "lg" }}
                   lineHeight={1.6}
                   color="gray.700"
                 >
-                  Каждому убеждению — конкретный способ трансформации. Чтобы ты
-                  мог не просто понять, а почувствовать и поменять.
+                  Every belief comes with a specific transformation method. So
+                  you can stop just understanding and start actually changing.
                 </Text>
               </Box>
             </HStack>

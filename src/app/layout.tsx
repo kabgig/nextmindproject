@@ -14,8 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Исходный код",
-  description: "База самых сильных ограничивающих убеждений",
+  title: "Next Mind Project",
+  description:
+    "The ultimate database of limiting beliefs and mental transformation",
 };
 
 export default function RootLayout({

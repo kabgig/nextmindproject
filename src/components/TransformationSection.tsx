@@ -42,7 +42,7 @@ export default function TransformationSection() {
               textAlign="center"
               fontWeight="normal"
             >
-              «Исходный код» — это личный инструмент трансформации
+              "Next Mind Project" is your personal transformation toolkit
             </Heading>
 
             {/* Features List */}
@@ -50,22 +50,23 @@ export default function TransformationSection() {
               <HStack align="start" spacing={4}>
                 <Text fontSize="xl">⚙️</Text>
                 <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                  Более 600+ ограничивающих убеждений.
+                  600+ of the most powerful limiting beliefs documented.
                 </Text>
               </HStack>
 
               <HStack align="start" spacing={4}>
                 <Text fontSize="xl">🧠</Text>
                 <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                  Разобраны самые важные темы: личность, деньги, бизнес,
-                  продажи, отношения, жизнь.
+                  Covers all the big areas: identity, money, business, sales,
+                  relationships, and life.
                 </Text>
               </HStack>
 
               <HStack align="start" spacing={4}>
                 <Text fontSize="xl">📁</Text>
                 <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                  Всё структурировано и подаётся просто и по-взрослому.
+                  Everything is organized and presented in a straight-up, no-BS
+                  way.
                 </Text>
               </HStack>
             </VStack>
@@ -73,48 +74,47 @@ export default function TransformationSection() {
             {/* Description */}
             <VStack spacing={4} align="start">
               <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                Ты изучаешь прошивки — и понимаешь, где именно в тебе зарыта
-                проблема.
+                You study the programming—and finally see exactly where your
+                roadblocks are hiding.
               </Text>
               <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                Без терапии. Без воды. Без драм.
+                No therapy. No fluff. No drama.
               </Text>
             </VStack>
 
             {/* What You Get */}
             <Box>
               <Heading as="h3" fontSize={{ base: "lg", md: "xl" }} mb={6}>
-                Что ты получишь:
+                Here's what you'll get:
               </Heading>
 
               <VStack spacing={4} align="start">
                 <HStack align="start" spacing={4}>
                   <Text fontSize="xl">🎯</Text>
                   <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                    Быстро находишь и меняешь свои ключевые ограничения.
+                    Quickly identify and shift your biggest mental blocks.
                   </Text>
                 </HStack>
 
                 <HStack align="start" spacing={4}>
                   <Text fontSize="xl">💡</Text>
                   <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                    Осознаёшь, почему застрял (в деньгах, в бизнесе, в жизни, в
-                    отношениях).
+                    Finally understand why you're stuck (with money, business,
+                    life, relationships).
                   </Text>
                 </HStack>
 
                 <HStack align="start" spacing={4}>
                   <Text fontSize="xl">🚀</Text>
                   <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                    Экономишь время и деньги на психологах и ковырянии в себе.
+                    Save time and money on therapists and endless self-analysis.
                   </Text>
                 </HStack>
 
                 <HStack align="start" spacing={4}>
                   <Text fontSize="xl">🔧</Text>
                   <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                    Больше не зависишь от чужой обратной связи для собственного
-                    развития.
+                    Stop depending on others for feedback about your own growth.
                   </Text>
                 </HStack>
               </VStack>
@@ -127,7 +127,7 @@ export default function TransformationSection() {
               fontWeight="semibold"
               textAlign="center"
             >
-              Это не мотивация. Это — чистка системы мышления.
+              This isn't motivation. This is mental system cleanup.
             </Text>
 
             {/* Brain Icon */}

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import {
   Box,
@@ -8,7 +8,7 @@ import {
   VStack,
   Avatar,
   Center,
-} from '@chakra-ui/react';
+} from "@chakra-ui/react";
 
 export default function HeroSection() {
   return (
@@ -17,29 +17,29 @@ export default function HeroSection() {
         <VStack spacing={12} align="center">
           {/* Header */}
           <VStack spacing={6} align="center">
-            <Heading 
-              as="h1" 
+            <Heading
+              as="h1"
               fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
               fontWeight="bold"
               textAlign="center"
             >
-              Исходный код
+              Next Mind Project
             </Heading>
-            
-            <Text 
+
+            <Text
               fontSize={{ base: "lg", md: "xl" }}
               textAlign="center"
               maxW="600px"
             >
-              Новые прошивки → Новые стратегии → Новая реальность
+              New Programming → New Strategies → New Reality
             </Text>
           </VStack>
 
           {/* Profile Image */}
           <Center>
-            <Avatar 
-              size="2xl" 
-              src="/api/placeholder/200/200" 
+            <Avatar
+              size="2xl"
+              src="/api/placeholder/200/200"
               name="Profile"
               boxSize={{ base: "150px", md: "200px" }}
             />
@@ -50,62 +50,100 @@ export default function HeroSection() {
             {/* Introduction */}
             <Box>
               <Heading as="h2" fontSize={{ base: "xl", md: "2xl" }} mb={6}>
-                Пришло время изменений
+                It's Time to Level Up
               </Heading>
               <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.7}>
-                «Исходный код» — это самая большая база ограничивающих убеждений и стратегий, 
-                которые мешают тебе жить по своим правилам, кайфовать и зарабатывать больше.
+                "Next Mind Project" is the ultimate database of limiting beliefs
+                and mental patterns that are keeping you stuck, broke, and
+                playing small in life.
               </Text>
             </Box>
 
             {/* Why Important */}
             <Box>
               <Heading as="h3" fontSize={{ base: "lg", md: "xl" }} mb={4}>
-                Почему это важно?
+                Why This Matters
               </Heading>
               <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.7} mb={6}>
-                Твои реальные проблемы — не в дисциплине, мотивации или действиях, 
-                а в прошивках, которые ты даже не осознаёшь.
+                Your real problems aren't about discipline, motivation, or
+                taking action— it's the mental programming running in the
+                background that you don't even realize is there.
               </Text>
             </Box>
 
             {/* Examples List */}
             <VStack spacing={3} align="start">
-              <Text fontSize={{ base: "md", md: "lg" }} fontStyle="italic" lineHeight={1.6}>
-                Быть богатым — опасно.
+              <Text
+                fontSize={{ base: "md", md: "lg" }}
+                fontStyle="italic"
+                lineHeight={1.6}
+              >
+                Being rich is dangerous.
               </Text>
-              <Text fontSize={{ base: "md", md: "lg" }} fontStyle="italic" lineHeight={1.6}>
-                Если я не сам - я никто.
+              <Text
+                fontSize={{ base: "md", md: "lg" }}
+                fontStyle="italic"
+                lineHeight={1.6}
+              >
+                If I didn't do it myself, I'm nobody.
               </Text>
-              <Text fontSize={{ base: "md", md: "lg" }} fontStyle="italic" lineHeight={1.6}>
-                Честным трудом не заработать.
+              <Text
+                fontSize={{ base: "md", md: "lg" }}
+                fontStyle="italic"
+                lineHeight={1.6}
+              >
+                You can't make good money honestly.
               </Text>
-              <Text fontSize={{ base: "md", md: "lg" }} fontStyle="italic" lineHeight={1.6}>
-                Богатство и духовность несовместимы.
+              <Text
+                fontSize={{ base: "md", md: "lg" }}
+                fontStyle="italic"
+                lineHeight={1.6}
+              >
+                Money and spirituality don't mix.
               </Text>
-              <Text fontSize={{ base: "md", md: "lg" }} fontStyle="italic" lineHeight={1.6}>
-                Если ты что-то получил — у тебя это отнимут.
+              <Text
+                fontSize={{ base: "md", md: "lg" }}
+                fontStyle="italic"
+                lineHeight={1.6}
+              >
+                If you get something good, it'll be taken away.
               </Text>
-              <Text fontSize={{ base: "md", md: "lg" }} fontStyle="italic" lineHeight={1.6}>
-                У меня нет права жить легко.
+              <Text
+                fontSize={{ base: "md", md: "lg" }}
+                fontStyle="italic"
+                lineHeight={1.6}
+              >
+                I don't deserve to have it easy.
               </Text>
-              <Text fontSize={{ base: "md", md: "lg" }} fontStyle="italic" lineHeight={1.6}>
-                Зарабатывать легко невозможно.
+              <Text
+                fontSize={{ base: "md", md: "lg" }}
+                fontStyle="italic"
+                lineHeight={1.6}
+              >
+                Easy money doesn't exist.
               </Text>
-              <Text fontSize={{ base: "md", md: "lg" }} fontStyle="italic" lineHeight={1.6}>
-                Женщинам нужны только деньги.
+              <Text
+                fontSize={{ base: "md", md: "lg" }}
+                fontStyle="italic"
+                lineHeight={1.6}
+              >
+                Women only want your money.
               </Text>
             </VStack>
 
             {/* Conclusion */}
             <VStack spacing={4} align="stretch">
-              <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.7} fontWeight="semibold">
-                Вшитые в тебя подобные программы управляют твоими решениями и поведением, 
-                а ты даже не замечаешь этого.
+              <Text
+                fontSize={{ base: "md", md: "lg" }}
+                lineHeight={1.7}
+                fontWeight="semibold"
+              >
+                These deep-seated programs are running your decisions and
+                behavior on autopilot, and you don't even see it happening.
               </Text>
-              
+
               <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.7}>
-                Они сливают твои деньги, кайф, энергию, свободу и время.
+                They're draining your money, joy, energy, freedom, and time.
               </Text>
             </VStack>
           </VStack>
