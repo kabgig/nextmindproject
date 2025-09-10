@@ -39,8 +39,8 @@ export default function HeroSection() {
           <Center>
             <Avatar
               size="2xl"
-              src="/api/placeholder/200/200"
-              name="Profile"
+              src="/icon.webp"
+              name="Next Mind Project"
               boxSize={{ base: "150px", md: "200px" }}
             />
           </Center>
