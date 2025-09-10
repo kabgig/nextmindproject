@@ -36,17 +36,8 @@ export default function Home() {
           {/* Pricing Buttons */}
           <VStack spacing={4} w="full" maxW="600px" mx="auto">
             <Button
-              size="lg"
-              colorScheme="blue"
-              w="full"
-              py={8}
-              fontSize="lg"
-              fontWeight="bold"
-            >
-              Get Access from USA - $120/month
-            </Button>
-
-            <Button
+              as="a"
+              href="/waitlist"
               size="lg"
               colorScheme="green"
               w="full"
@@ -54,7 +45,7 @@ export default function Home() {
               fontSize="lg"
               fontWeight="bold"
             >
-              Get Access from Anywhere Else - €110/month
+              Get Access - $120/month
             </Button>
           </VStack>
 
@@ -62,15 +53,19 @@ export default function Home() {
           <Box textAlign="center" fontSize="sm" color="gray.600">
             <Text mb={4}>
               By proceeding to payment, you agree to our{" "}
-              <Link color="blue.500" href="#" textDecoration="underline">
+              <Link color="blue.500" href="/terms" textDecoration="underline">
                 terms of service
               </Link>{" "}
               and consent to the processing of{" "}
-              <Link color="blue.500" href="#" textDecoration="underline">
+              <Link
+                color="blue.500"
+                href="/data-processing"
+                textDecoration="underline"
+              >
                 personal data
               </Link>{" "}
               in accordance with our{" "}
-              <Link color="blue.500" href="#" textDecoration="underline">
+              <Link color="blue.500" href="/privacy" textDecoration="underline">
                 privacy policy
               </Link>
             </Text>
@@ -83,25 +78,16 @@ export default function Home() {
 
             <Text>
               For important questions, contact our project manager{" "}
-              <Link color="blue.500" href="#" textDecoration="underline">
-                @victoria_vish
+              <Link
+                color="blue.500"
+                href="https://t.me/kabgig"
+                textDecoration="underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                @kabgig
               </Link>
             </Text>
-          </Box>
-
-          {/* Social Links */}
-          <Box textAlign="center">
-            <Text fontSize="lg" fontWeight="bold" mb={4}>
-              Follow Us
-            </Text>
-            <HStack justify="center" spacing={6}>
-              <Link color="blue.500" href="#" fontSize="lg">
-                YouTube
-              </Link>
-              <Link color="blue.500" href="#" fontSize="lg">
-                Telegram
-              </Link>
-            </HStack>
           </Box>
 
           <Divider />
@@ -118,13 +104,21 @@ export default function Home() {
               </Text>
 
               <HStack justify="center" spacing={4} flexWrap="wrap">
-                <Link color="blue.500" href="#" textDecoration="underline">
+                <Link color="blue.500" href="/terms" textDecoration="underline">
                   Terms of Service
                 </Link>
-                <Link color="blue.500" href="#" textDecoration="underline">
+                <Link
+                  color="blue.500"
+                  href="/privacy"
+                  textDecoration="underline"
+                >
                   Privacy Policy
                 </Link>
-                <Link color="blue.500" href="#" textDecoration="underline">
+                <Link
+                  color="blue.500"
+                  href="/data-processing"
+                  textDecoration="underline"
+                >
                   Data Processing
                 </Link>
               </HStack>

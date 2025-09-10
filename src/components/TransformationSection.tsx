@@ -24,7 +24,7 @@ export default function TransformationSection() {
               boxSize={{ base: "200px", md: "300px" }}
             >
               <Image
-                src="/api/placeholder/300/300"
+                src="public/icon.webp"
                 alt="Museum visitor"
                 w="full"
                 h="full"
