@@ -15,17 +15,19 @@ export default function InsideSection() {
       <Container maxW="container.lg">
         <VStack spacing={8} align="stretch">
           {/* Header */}
-          <Heading
-            as="h3"
-            fontSize={{ base: "xl", md: "2xl" }}
-            textAlign="center"
-            mb={8}
-          >
-            Here&apos;s what&apos;s waiting for you inside:
-          </Heading>
+          <VStack spacing={4} align="stretch" maxW="800px" mx="auto">
+            <Heading
+              as="h3"
+              fontSize={{ base: "xl", md: "2xl" }}
+              textAlign="left"
+              mb={8}
+            >
+              Here&apos;s what&apos;s waiting for you inside:
+            </Heading>
+          </VStack>
 
           {/* Features List */}
-          <VStack spacing={8} align="start">
+          <VStack spacing={8} align="stretch" maxW="800px" mx="auto">
             <HStack align="start" spacing={6}>
               <Box fontSize="3xl" mt={1}>
                 💾

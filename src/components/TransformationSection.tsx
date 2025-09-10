@@ -13,9 +13,9 @@ import {
 
 export default function TransformationSection() {
   return (
-    <Box bg="white" color="black" py={1}>
+    <Box bg="white" color="black" py={16}>
       <Container maxW="container.lg">
-        <VStack spacing={12} align="center">
+        <VStack spacing={12} align="stretch">
           {/* Circular Image */}
           <Center>
             <Box
@@ -34,12 +34,12 @@ export default function TransformationSection() {
           </Center>
 
           {/* Main Content */}
-          <VStack spacing={8} align="stretch" maxW="800px">
+          <VStack spacing={8} align="stretch" maxW="800px" mx="auto">
             {/* Title */}
             <Heading
               as="h2"
               fontSize={{ base: "xl", md: "2xl" }}
-              textAlign="center"
+              textAlign="left"
               fontWeight="normal"
             >
               &quot;Next Mind Project&quot; is your personal transformation
@@ -47,33 +47,24 @@ export default function TransformationSection() {
             </Heading>
 
             {/* Features List */}
-            <VStack spacing={4} align="start">
-              <HStack align="start" spacing={4}>
-                <Text fontSize="xl">⚙️</Text>
-                <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                  600+ of the most powerful limiting beliefs documented.
-                </Text>
-              </HStack>
+            <VStack spacing={4} align="stretch">
+              <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
+                ⚙️ 600+ of the most powerful limiting beliefs documented.
+              </Text>
 
-              <HStack align="start" spacing={4}>
-                <Text fontSize="xl">🧠</Text>
-                <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                  Covers all the big areas: identity, money, business, sales,
-                  relationships, and life.
-                </Text>
-              </HStack>
+              <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
+                🧠 Covers all the big areas: identity, money, business, sales,
+                relationships, and life.
+              </Text>
 
-              <HStack align="start" spacing={4}>
-                <Text fontSize="xl">📁</Text>
-                <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                  Everything is organized and presented in a straight-up, no-BS
-                  way.
-                </Text>
-              </HStack>
+              <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
+                📁 Everything is organized and presented in a straight-up, no-BS
+                way.
+              </Text>
             </VStack>
 
             {/* Description */}
-            <VStack spacing={4} align="start">
+            <VStack spacing={4} align="stretch">
               <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
                 You study the programming—and finally see exactly where your
                 roadblocks are hiding.
@@ -85,39 +76,34 @@ export default function TransformationSection() {
 
             {/* What You Get */}
             <Box>
-              <Heading as="h3" fontSize={{ base: "lg", md: "xl" }} mb={6}>
+              <Heading
+                as="h3"
+                fontSize={{ base: "lg", md: "xl" }}
+                mb={6}
+                textAlign="left"
+              >
                 Here&apos;s what you&apos;ll get:
               </Heading>
 
-              <VStack spacing={4} align="start">
-                <HStack align="start" spacing={4}>
-                  <Text fontSize="xl">🎯</Text>
-                  <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                    Quickly identify and shift your biggest mental blocks.
-                  </Text>
-                </HStack>
+              <VStack spacing={4} align="stretch">
+                <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
+                  🎯 Quickly identify and shift your biggest mental blocks.
+                </Text>
 
-                <HStack align="start" spacing={4}>
-                  <Text fontSize="xl">💡</Text>
-                  <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                    Finally understand why you&apos;re stuck (with money,
-                    business, life, relationships).
-                  </Text>
-                </HStack>
+                <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
+                  💡 Finally understand why you&apos;re stuck (with money,
+                  business, life, relationships).
+                </Text>
 
-                <HStack align="start" spacing={4}>
-                  <Text fontSize="xl">🚀</Text>
-                  <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                    Save time and money on therapists and endless self-analysis.
-                  </Text>
-                </HStack>
+                <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
+                  🚀 Save time and money on therapists and endless
+                  self-analysis.
+                </Text>
 
-                <HStack align="start" spacing={4}>
-                  <Text fontSize="xl">🔧</Text>
-                  <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
-                    Stop depending on others for feedback about your own growth.
-                  </Text>
-                </HStack>
+                <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.6}>
+                  🔧 Stop depending on others for feedback about your own
+                  growth.
+                </Text>
               </VStack>
             </Box>
 
@@ -126,7 +112,7 @@ export default function TransformationSection() {
               fontSize={{ base: "md", md: "lg" }}
               lineHeight={1.6}
               fontWeight="semibold"
-              textAlign="center"
+              textAlign="left"
             >
               This isn&apos;t motivation. This is mental system cleanup.
             </Text>

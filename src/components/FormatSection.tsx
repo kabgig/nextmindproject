@@ -15,18 +15,23 @@ export default function FormatSection() {
       <Container maxW="container.lg">
         <VStack spacing={8} align="stretch">
           {/* Header */}
-          <Box textAlign="center">
-            <Heading as="h3" fontSize={{ base: "xl", md: "2xl" }} mb={4}>
+          <VStack spacing={4} align="stretch" maxW="800px" mx="auto">
+            <Heading
+              as="h3"
+              fontSize={{ base: "xl", md: "2xl" }}
+              mb={4}
+              textAlign="left"
+            >
               Database Format:
             </Heading>
-            <Text fontSize={{ base: "md", md: "lg" }} mb={8}>
+            <Text fontSize={{ base: "md", md: "lg" }} mb={8} textAlign="left">
               Every mental bug in the database gets broken down using this
               framework:
             </Text>
-          </Box>
+          </VStack>
 
           {/* Format Items */}
-          <VStack spacing={6} align="start">
+          <VStack spacing={6} align="stretch" maxW="800px" mx="auto">
             {/* Bug */}
             <Box>
               <HStack align="start" spacing={4} mb={3}>
@@ -35,11 +40,7 @@ export default function FormatSection() {
                   Bug #1 &quot;The exact mental bug we&apos;re tackling&quot;
                 </Text>
               </HStack>
-              <Text
-                fontSize={{ base: "md", md: "lg" }}
-                color="gray.600"
-                pl={12}
-              >
+              <Text fontSize={{ base: "md", md: "lg" }} color="gray.600">
                 The name and description of the bug that&apos;ll hit you like a
                 ton of bricks from the first read.
               </Text>
@@ -53,11 +54,7 @@ export default function FormatSection() {
                   How it shows up in real life
                 </Text>
               </HStack>
-              <Text
-                fontSize={{ base: "md", md: "lg" }}
-                color="gray.600"
-                pl={12}
-              >
+              <Text fontSize={{ base: "md", md: "lg" }} color="gray.600">
                 Breakdown of common situations where this programming messes
                 with your life.
               </Text>
@@ -71,11 +68,7 @@ export default function FormatSection() {
                   Related limiting beliefs
                 </Text>
               </HStack>
-              <Text
-                fontSize={{ base: "md", md: "lg" }}
-                color="gray.600"
-                pl={12}
-              >
+              <Text fontSize={{ base: "md", md: "lg" }} color="gray.600">
                 Additional connected beliefs that are tied to this mental bug.
               </Text>
             </Box>
@@ -88,11 +81,7 @@ export default function FormatSection() {
                   What this belief sounds like
                 </Text>
               </HStack>
-              <Text
-                fontSize={{ base: "md", md: "lg" }}
-                color="gray.600"
-                pl={12}
-              >
+              <Text fontSize={{ base: "md", md: "lg" }} color="gray.600">
                 How this programming shows up in everyday conversation with
                 people, friends, family, etc.
               </Text>
@@ -106,11 +95,7 @@ export default function FormatSection() {
                   The root of the belief
                 </Text>
               </HStack>
-              <Text
-                fontSize={{ base: "md", md: "lg" }}
-                color="gray.600"
-                pl={12}
-              >
+              <Text fontSize={{ base: "md", md: "lg" }} color="gray.600">
                 Where this programming came from and how it got installed in
                 your head.
               </Text>
@@ -124,11 +109,7 @@ export default function FormatSection() {
                   How it&apos;s holding you back
                 </Text>
               </HStack>
-              <Text
-                fontSize={{ base: "md", md: "lg" }}
-                color="gray.600"
-                pl={12}
-              >
+              <Text fontSize={{ base: "md", md: "lg" }} color="gray.600">
                 We break down situations where you might see yourself reflected.
               </Text>
             </Box>
@@ -141,11 +122,7 @@ export default function FormatSection() {
                   New programming
                 </Text>
               </HStack>
-              <Text
-                fontSize={{ base: "md", md: "lg" }}
-                color="gray.600"
-                pl={12}
-              >
+              <Text fontSize={{ base: "md", md: "lg" }} color="gray.600">
                 We do a deep reframe from the old programming to the new. Bonus:
                 we install 10 new powerful supporting beliefs.
               </Text>

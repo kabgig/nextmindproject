@@ -14,7 +14,7 @@ export default function HeroSection() {
   return (
     <Box bg="white" color="black" py={16}>
       <Container maxW="container.lg">
-        <VStack spacing={12} align="center">
+        <VStack spacing={12} align="stretch">
           {/* Header */}
           <VStack spacing={6} align="center">
             <Heading
@@ -46,7 +46,7 @@ export default function HeroSection() {
           </Center>
 
           {/* Main Content */}
-          <VStack spacing={8} align="stretch" maxW="800px">
+          <VStack spacing={8} align="stretch" maxW="800px" mx="auto">
             {/* Introduction */}
             <Box>
               <Heading as="h2" fontSize={{ base: "xl", md: "2xl" }} mb={6}>
@@ -72,7 +72,7 @@ export default function HeroSection() {
             </Box>
 
             {/* Examples List */}
-            <VStack spacing={3} align="start">
+            <VStack spacing={3} align="stretch">
               <Text
                 fontSize={{ base: "md", md: "lg" }}
                 fontStyle="italic"
