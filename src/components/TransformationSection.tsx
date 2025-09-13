@@ -13,7 +13,7 @@ import {
 
 export default function TransformationSection() {
   return (
-    <Box bg="white" color="black" py={16}>
+    <Box bg="white" color="black" py={16} mt={-20}>
       <Container maxW="container.lg">
         <VStack spacing={12} align="stretch">
           {/* Circular Image */}
@@ -21,7 +21,13 @@ export default function TransformationSection() {
             <Box
               borderRadius="full"
               overflow="hidden"
-              boxSize={{ base: "200px", md: "300px" }}
+              boxSize={{ base: "180px", md: "220px" }}
+              // mb={12}
+              mt={-30}
+              style={{
+                transform: "scale(1.2)",
+                objectPosition: "center center",
+              }}
             >
               <Image
                 src="/icon.webp"
@@ -124,6 +130,8 @@ export default function TransformationSection() {
                 overflow="hidden"
                 boxSize={{ base: "180px", md: "220px" }}
                 shadow="lg"
+                mt={12}
+                mb={-14}
               >
                 <Image
                   src="/234.JPG"

@@ -12,8 +12,10 @@ import {
 import { useState } from "react";
 
 export default function FormatSection() {
-  const [expandedItems, setExpandedItems] = useState<{ [key: number]: boolean }>({
-    0: true // First item open by default
+  const [expandedItems, setExpandedItems] = useState<{
+    [key: number]: boolean;
+  }>({
+    0: true, // First item open by default
   });
 
   const toggleItem = (index: number) => {
@@ -268,7 +270,7 @@ export default function FormatSection() {
 
             {/* New programming */}
             <Box>
-              <HStack align="start" spacing={4} mb={3}>
+              <HStack align="start" spacing={4}>
                 <Text fontSize="xl">💡</Text>
                 <HStack justify="space-between" w="full" align="center">
                   <Text fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">

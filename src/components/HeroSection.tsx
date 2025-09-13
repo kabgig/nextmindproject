@@ -77,7 +77,7 @@ export default function HeroSection() {
               <Heading as="h3" fontSize={{ base: "lg", md: "xl" }} mb={4}>
                 Why This Matters
               </Heading>
-              <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.7} mb={6}>
+              <Text fontSize={{ base: "md", md: "lg" }} lineHeight={1.7}>
                 Your real problems aren&apos;t about discipline, motivation, or
                 taking action— it&apos;s the mental programming running in the
                 background that you don&apos;t even realize is there.
