@@ -122,15 +122,18 @@ export default function TransformationSection() {
               <Box
                 borderRadius="full"
                 overflow="hidden"
-                boxSize={{ base: "120px", md: "150px" }}
+                boxSize={{ base: "180px", md: "220px" }}
                 shadow="lg"
               >
                 <Image
-                  src="/icon.webp"
+                  src="/234.JPG"
                   alt="Next Mind Project"
                   w="full"
                   h="full"
                   objectFit="cover"
+                  style={{
+                    objectPosition: "20% 10%",
+                  }}
                 />
               </Box>
             </Center>

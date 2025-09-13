@@ -8,6 +8,7 @@ import {
   VStack,
   Avatar,
   Center,
+  Image,
 } from "@chakra-ui/react";
 
 export default function HeroSection() {
@@ -37,12 +38,24 @@ export default function HeroSection() {
 
           {/* Profile Image */}
           <Center>
-            <Avatar
-              size="2xl"
-              src="/icon.webp"
-              name="Next Mind Project"
-              boxSize={{ base: "150px", md: "200px" }}
-            />
+            <Box
+              borderRadius="full"
+              overflow="hidden"
+              boxSize={{ base: "200px", md: "250px" }}
+              shadow="lg"
+            >
+              <Image
+                src="/123.JPG"
+                alt="Next Mind Project"
+                w="full"
+                h="full"
+                objectFit="cover"
+                style={{
+                  transform: "scale(1.2)",
+                  objectPosition: "center center",
+                }}
+              />
+            </Box>
           </Center>
 
           {/* Main Content */}
