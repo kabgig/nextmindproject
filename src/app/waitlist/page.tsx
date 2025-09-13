@@ -68,9 +68,8 @@ export default function WaitlistPage() {
           <VStack spacing={6} textAlign="center" maxW="600px">
             <Text fontSize="lg" lineHeight={1.8}>
               Our comprehensive mental transformation database will be launching
-              in exactly <strong>one month</strong>. We&apos;re working hard to
-              ensure you get the most powerful tool for identifying and
-              transforming limiting beliefs.
+              in a few month. We&apos;re working hard to ensure you get the most
+              powerful tool for identifying and transforming limiting beliefs.
             </Text>
 
             <Text fontSize="md" color="gray.600" lineHeight={1.6}>
@@ -107,11 +106,11 @@ export default function WaitlistPage() {
           {/* Waitlist Options */}
           <VStack spacing={8} w="full" maxW="500px">
             <Heading as="h2" size="lg" textAlign="center">
-              Choose How You&apos;d Like to Join:
+              Get notified when we launch 👇:
             </Heading>
 
             {/* Email Option */}
-            <VStack spacing={4} w="full">
+            {/* <VStack spacing={4} w="full">
               {!showEmailForm ? (
                 <Button
                   size="lg"
@@ -172,12 +171,12 @@ export default function WaitlistPage() {
                   </form>
                 </Box>
               )}
-            </VStack>
+            </VStack> */}
 
             {/* Telegram Option */}
             <Button
               as="a"
-              href="#"
+              href="https://t.me/nextmindprojectbot"
               size="lg"
               colorScheme="cyan"
               w="full"
