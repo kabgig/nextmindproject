@@ -25,7 +25,7 @@ import { SiIheartradio } from "react-icons/si";
 const links = [
   {
     name: "Next Mind Project",
-    url: "https://nextmindproject.com",
+    url: "https://nextmindproject.com/?utm_source=social_media&utm_medium=linktree",
     icon: FaBrain,
     color: "gray.600",
   },
