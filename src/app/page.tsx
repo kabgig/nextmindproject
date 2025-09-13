@@ -37,7 +37,7 @@ export default function Home() {
           <VStack spacing={4} w="full" maxW="600px" mx="auto">
             <Button
               as="a"
-              href="/waitlist"
+              href="/waitlist?utm_source=website_homepage_getaccessbutton&utm_medium=website"
               size="lg"
               colorScheme="green"
               w="full"
